@@ -4,28 +4,28 @@
     {
       "repo": "GuillaumeBousignac.github.io",
       "rarity": "legendary",
-      "rating": 4.9,
+      "rating": 5,
       "custom_title": "Portfolio",
       "custom_description": "My personal pixel-art themed portfolio built with vanilla HTML, CSS and JS."
     },
     {
       "repo": "Arzmania-s-Card-Bot",
       "rarity": "epic",
-      "rating": 4.7,
+      "rating": 4,
       "custom_title": null,
       "custom_description": null
     },
     {
       "repo": "Arzmania",
-      "rarity": "rare",
-      "rating": 4.5,
+      "rarity": "legendary",
+      "rating": 5,
       "custom_title": null,
       "custom_description": null
     },
     {
       "repo": "Git_better",
       "rarity": "rare",
-      "rating": 4.2,
+      "rating": 3,
       "custom_title": null,
       "custom_description": null
     }
