@@ -1183,7 +1183,6 @@ Try typing 'pixel' while on the page for a secret!
     });
 })();
 
-
 (function initGithubProjects() {
     const RARITY_CONFIG = {
         legendary: { stars: 3, borderClass: 'legendary-border', badgeClass: 'legendary' },
