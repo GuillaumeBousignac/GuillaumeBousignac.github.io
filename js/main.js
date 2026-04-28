@@ -51,39 +51,39 @@ function initMusicPlayer() {
             {
                 name: 'Main Title',
                 artist: 'Ramin Djawadi',
-                file: '../assets/audio/Main Title.mp3'
+                file: './assets/audio/Main Title.mp3'
             },
             {
                 name: 'Lord of the Rings',
                 artist: 'Howard Shore',
-                file: '../assets/audio/Lord of the Rings.mp3'
+                file: './assets/audio/Lord of the Rings.mp3'
             },
             {
                 name: 'Dragon Smasher',
                 artist: 'Evan Call',
-                file: '../assets/audio/Dragon Smasher.mp3'
+                file: './assets/audio/Dragon Smasher.mp3'
             },
             {
                 name: 'Zoltraak',
                 artist: 'Evan Call',
-                file: '../assets/audio/Zoltraak.mp3'
+                file: './assets/audio/Zoltraak.mp3'
             }
         ],
         night: [
             {
                 name: 'Secunda',
                 artist: 'Jeremy Soule',
-                file: '../assets/audio/Secunda.mp3'
+                file: './assets/audio/Secunda.mp3'
             },
             {
                 name: 'Dark Fantasy',
                 artist: 'Tiktok',
-                file: '../assets/audio/Dark Fantasy Tiktok Song.mp3'
+                file: './assets/audio/Dark Fantasy Tiktok Song.mp3'
             },
             {
                 name: 'Rusty Sword',
                 artist: 'Yukata Yamada',
-                file: '../assets/audio/Rusty sword.mp3'
+                file: './assets/audio/Rusty sword.mp3'
             }
         ]
     };
@@ -1209,7 +1209,8 @@ Try typing 'pixel' while on the page for a secret!
         const title   = project.custom_title   || repoData.name.replace(/[-_]/g, ' ');
         const desc    = project.custom_description || repoData.description || 'No description available.';
         const rating  = project.rating ? project.rating.toFixed(1) : '—';
-        const repoUrl = repoData.html_url;
+        const repoUrl  = repoData.html_url;
+        const viewUrl  = project.custom_url || `${repoUrl}/tree/main`;
 
         const techTags = Object.keys(languages).slice(0, 4).map(lang => {
             const color = LANG_COLORS[lang] || '#888';
@@ -1233,7 +1234,7 @@ Try typing 'pixel' while on the page for a secret!
                 </div>
             </div>
             <div class="project-footer">
-                <a href="${repoUrl}/tree/main" target="_blank" rel="noopener" class="project-btn view-btn">View Quest</a>
+                <a href="${viewUrl}" target="_blank" rel="noopener" class="project-btn view-btn">View Quest</a>
                 <a href="${repoUrl}" target="_blank" rel="noopener" class="project-btn code-btn">Source Code</a>
             </div>
         </div>`;
