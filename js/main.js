@@ -1141,9 +1141,9 @@ Try typing 'pixel' while on the page for a secret!
 
 (function initContactForm() {
     
-    const EMAILJS_PUBLIC_KEY  = 'VOTRE_PUBLIC_KEY';   
-    const EMAILJS_SERVICE_ID  = 'VOTRE_SERVICE_ID';   
-    const EMAILJS_TEMPLATE_ID = 'VOTRE_TEMPLATE_ID';  
+    const EMAILJS_PUBLIC_KEY  = 'OhTF-gx7Nk2DZlIsb';   
+    const EMAILJS_SERVICE_ID  = 'service_qmvmi78';   
+    const EMAILJS_TEMPLATE_ID = 'template_vdluwur';  
 
     emailjs.init(EMAILJS_PUBLIC_KEY);
 
