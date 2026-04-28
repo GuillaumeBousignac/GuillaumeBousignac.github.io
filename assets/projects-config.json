@@ -6,7 +6,8 @@
       "rarity": "legendary",
       "rating": 5.0,
       "custom_title": "Portfolio",
-      "custom_description": "My personal pixel-art themed portfolio built with vanilla HTML, CSS and JS."
+      "custom_description": "My personal pixel-art themed portfolio built with vanilla HTML, CSS and JS.",
+      "custom_url": "https://guillaumebousignac.github.io/"
     },
     {
       "repo": "Arzmania-s-Card-Bot",
