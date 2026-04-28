@@ -1195,7 +1195,7 @@ Try typing 'pixel' while on the page for a secret!
         HTML: '#e34c26', CSS: '#563d7c', Vue: '#41b883', React: '#61dafb',
         Java: '#b07219', C: '#555555', 'C++': '#f34b7d', Go: '#00ADD8',
         Rust: '#dea584', Ruby: '#701516', PHP: '#4F5D95', Shell: '#89e051',
-        Dockerfile: '#384d54', Makefile: '#427819'
+        Dockerfile: '#384d54', Makefile: '#589e22'
     };
 
     function buildStars(count) {
