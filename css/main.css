@@ -640,7 +640,7 @@ body.dark-theme .main-nav {
 }
 .hero-subtitle {
     font-size: 1.6rem;
-    color: var(--color-text-secondary);
+    color: var(--color-on-wood);
     margin-bottom: var(--spacing-lg);
     font-family: var(--font-elegant);
 }
