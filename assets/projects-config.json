@@ -25,6 +25,13 @@
       "custom_url": "https://arzmania.github.io/Arzmania/"
     },
     {
+      "repo": "FraudGuard",
+      "rarity": "legendary",
+      "rating": 4.5,
+      "custom_title": null,
+      "custom_description": null
+    },
+    {
       "repo": "WatchGram",
       "rarity": "epic",
       "rating": 4.0,
