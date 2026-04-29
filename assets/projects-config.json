@@ -39,6 +39,13 @@
       "custom_description": null
     },
     {
+      "repo": "Tardis",
+      "rarity": "rare",
+      "rating": 4.5,
+      "custom_title": null,
+      "custom_description": null
+    },
+    {
       "repo": "Hack-and-Juice",
       "rarity": "rare",
       "rating": 4.0,
